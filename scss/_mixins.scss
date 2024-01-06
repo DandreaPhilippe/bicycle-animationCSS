@@ -1,0 +1,18 @@
+@mixin animation {
+    @keyframes deplacement {
+        from {
+          transform: translate(0);
+        }
+        to {
+          transform: translate(400%);
+        }
+      }
+      @keyframes rotationRoue {
+        from {
+          transform: rotate(0);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+}
